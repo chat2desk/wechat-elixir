@@ -2,6 +2,7 @@ defmodule Wechat.Workers.AccessToken do
   @moduledoc false
 
   use GenServer
+  require Logger
 
   alias Wechat.Config
   alias Wechat.API
